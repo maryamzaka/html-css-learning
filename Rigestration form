@@ -1,0 +1,42 @@
+ <h3>Registration form</h3>
+   <form action="/action.php">
+     <input type="text" placeholder="username">
+     <br>
+     <input type="password" placeholder="password">
+     <br></br>
+     <BR></br>
+      <h3>select your class</h3>
+    <label for="101">
+     <input type="radio" value="class 9" name="class" id="101">class 9
+    </label>
+    <br>
+    <label for="102">
+     <input type="radio" value="class10" name="class" id="102">class10
+     </label>
+     <Br></br>
+     <br></br>
+    <h3>Select your fav subject</h3>
+
+    <label for="math">
+      <input type="checkbox" value="math" name="subject" id="101">math
+     </label>
+     <label for="bio">
+      <input type="checkbox" value="bio" name="subject" id="102">bio
+     </label>
+     <label for="che">
+      <input type="checkbox" value="che" name="subject" id="103">che
+      </label>
+      <br></br>
+      <h3>select your city</h3>
+       <select name="city">
+        <option value="lahore">lahore</option>
+        <option value="islamabad">islamabad</option>
+        <option value="karachi">karachi</option>
+       </select>
+      <br></br>
+      <h3>Give us your feedback</h3>
+      <textarea name="feedback" id="101" placeholder="please give your feedback here">feedback</textarea>
+      <br>
+      <br>
+      <input type="submit" value="submit">
+   </form>
